@@ -2,7 +2,7 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>YouTube Clone - Лабораторна робота №3</title>
+    <title>YouTube - Лабораторна робота №3 (FlexBox)</title>
     <link rel="stylesheet" href="lab3.css">
 </head>
 <body>
@@ -21,6 +21,15 @@
         </div>
     </header>
 
+    <div class="categories-bar">
+        <button class="category-chip active">Усі</button>
+        <button class="category-chip">Програмування</button>
+        <button class="category-chip">IT-Новини</button>
+        <button class="category-chip">Музика</button>
+        <button class="category-chip">Стріми</button>
+        <button class="category-chip">Подкасти</button>
+    </div>
+
     <div class="main-container">
         <aside class="sidebar">
             <a href="#" class="sidebar-item active">Головна</a>
@@ -28,8 +37,8 @@
             <a href="#" class="sidebar-item">Підписки</a>
             <a href="#" class="sidebar-item">Бібліотека</a>
         </aside>
+
         <main class="content">
-            <h2>Рекомендовані</h2>
             <div class="videos-grid">
                 <div class="video-card">
                     <div class="video-thumbnail">12:30</div>
@@ -63,6 +72,42 @@
                             <h3 class="video-title">«Це твоя лопата, копатимеш собі яму»: знайдено росіян...</h3>
                             <p class="channel-name">BIHUS Info</p>
                             <p class="video-stats">90 тис. переглядів • 1 день тому</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">15:20</div>
+                    <div class="video-info">
+                        <div class="channel-avatar"></div>
+                        <div class="video-details">
+                            <h3 class="video-title">Основи Python для початківців. Повний курс</h3>
+                            <p class="channel-name">IT-Освіта</p>
+                            <p class="video-stats">45 тис. переглядів • 5 днів тому</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">48:10</div>
+                    <div class="video-info">
+                        <div class="channel-avatar"></div>
+                        <div class="video-details">
+                            <h3 class="video-title">Створення веб-інтерфейсів на FlexBox та Grid</h3>
+                            <p class="channel-name">Web Developer</p>
+                            <p class="video-stats">120 тис. переглядів • 2 тижні тому</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">10:05</div>
+                    <div class="video-info">
+                        <div class="channel-avatar"></div>
+                        <div class="video-details">
+                            <h3 class="video-title">Налаштування робочого середовища розробника</h3>
+                            <p class="channel-name">Code Blog</p>
+                            <p class="video-stats">15 тис. переглядів • 3 дні тому</p>
                         </div>
                     </div>
                 </div>
