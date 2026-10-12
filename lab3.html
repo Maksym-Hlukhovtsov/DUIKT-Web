@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Clone - Лабораторна робота №3</title>
+    <link rel="stylesheet" href="lab3.css">
+</head>
+<body>
+    <!-- Шапка сайту (Header) -->
+    <header class="header">
+        <div class="logo-section">
+            <span class="menu-icon">☰</span>
+            <span class="logo">YouTube</span>
+        </div>
+        <div class="search-section">
+            <input type="text" placeholder="Пошук" class="search-input">
+            <button class="search-btn">🔍</button>
+        </div>
+        <div class="user-section">
+            <span>🔔</span>
+            <span class="user-avatar">М</span>
+        </div>
+    </header>
+
+    <!-- Основний контейнер ( Sidebar + Content ) -->
+    <div class="main-container">
+        <!-- Бічне меню -->
+        <aside class="sidebar">
+            <a href="#" class="sidebar-item active">Головна</a>
+            <a href="#" class="sidebar-item">Shorts</a>
+            <a href="#" class="sidebar-item">Підписки</a>
+            <a href="#" class="sidebar-item">Бібліотека</a>
+        </aside>
+
+        <!-- Контент із відео -->
+        <main class="content">
+            <h2>Рекомендовані</h2>
+            <div class="videos-grid">
+                <!-- Картка відео 1 -->
+                <div class="video-card">
+                    <div class="video-thumbnail">12:30</div>
+                    <div class="video-info">
+                        <div class="channel-avatar"></div>
+                        <div class="video-details">
+                            <h3 class="video-title">Як збільшився борг України за час великої війни?</h3>
+                            <p class="channel-name">Економічна правда</p>
+                            <p class="video-stats">78 тис. переглядів • 1 місяць тому</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Картка відео 2 -->
+                <div class="video-card">
+                    <div class="video-thumbnail">26:47</div>
+                    <div class="video-info">
+                        <div class="channel-avatar"></div>
+                        <div class="video-details">
+                            <h3 class="video-title">ЧТО БЫЛО, ТО И ЕЛИ. Какие овощи выращивали предки?</h3>
+                            <p class="channel-name">RTVI Развлечения</p>
+                            <p class="video-stats">276 тис. переглядів • 11 місяців тому</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Картка відео 3 -->
+                <div class="video-card">
+                    <div class="video-thumbnail">23:59</div>
+                    <div class="video-info">
+                        <div class="channel-avatar"></div>
+                        <div class="video-details">
+                            <h3 class="video-title">«Це твоя лопата, копатимеш собі яму»: знайдено росіян...</h3>
+                            <p class="channel-name">BIHUS Info</p>
+                            <p class="video-stats">90 тис. переглядів • 1 день тому</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
